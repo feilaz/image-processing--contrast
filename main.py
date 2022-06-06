@@ -18,6 +18,7 @@ def picture_histogram_eqalization(photo):
     return photo
 
 if __name__ == '__main__':
+    # image location
     photo = Image.open("yoda.jpeg")
     photo = photo.convert("L")
     photo = picture_histogram_eqalization(photo)
